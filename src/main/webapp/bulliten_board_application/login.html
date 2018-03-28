@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<script type="text/javascript" src="js/pwdHash.js"></script>
+<script type="text/javascript" src="js/sha512.js"></script>
+</head>
+<body>
+
+<form action="LoginServlet" name="login" id="login" method="POST">
+	<input type="text" placeholder="Username" name="uname"></input>
+	<input type="password" placeholder="Password" name="pass"></input>
+	<input type="submit" onclick="processLogin()" value="Login"></input>
+</form>
+
+<a href="register.html">Register an Account</a>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<header>
+ 		<nav class="navbar navbar-default">
+			<a href="index.jsp" class="navbar-brand">Brand</a>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="register">Register</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="login.do">Login</a></li>
+			</ul>
+		</nav>
+ </header>
+ <p>${exception.message}</p>

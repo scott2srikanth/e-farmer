@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<script src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/pwdHash.js"></script>
+<script type="text/javascript" src="js/sha512.js"></script>
+
+</head>
+<body>
+
+<form action="RegisterUser" method="POST" name="login" id="login">
+	<input type="text" placeholder="Username" name="uname"></input>
+	<input type="email" placeholder="Email" name="email"></input>
+	<input type="password" name="pass"></input>
+	<input type="button" onclick="processRegister()" value="Register"></input>
+</form>
+
+</body>
+</html>
